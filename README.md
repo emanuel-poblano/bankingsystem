@@ -27,7 +27,7 @@ Add methods:
 - deposit()
 - withdraw()
 
-Covered Concepts
+Covered Concepts:
 - ArrayList
 - Loops
 - Searching
@@ -40,21 +40,21 @@ Feature:
 - Create a transaction
 - Store transaction
 
-Covered Concepts
+Covered Concepts:
 - Object composition
 - Nested collections
 
-## Phase 4: Savings and Checking Accounts
+## Phase 4: Savings and Checkings Accounts
 
-Use inheritance from Account to Sacings/Checkings
+Use inheritance from Account to Savings/Checkings
 
-Concepts Covered
+Concepts Covered:
 - Inheritance
 - Polymorphism
 
 ## Phase 5: Transfer Money
 
-Concepts Covered
+Concepts Covered:
 - Object interaction
 - Business logic
 
@@ -62,7 +62,7 @@ Concepts Covered
 
 Save to file when application closes
 
-Concepts Covered
+Concepts Covered:
 - File I/O
 - Peresistence
 
@@ -70,16 +70,16 @@ Concepts Covered
 
 InsufficientFundsException
 
-Concepts Covered
+Concepts Covered:
 - Exception handling
 - Custom exceptions
 
 ## Phase 8: Streams and Reports
 
-Total money in bank
-Biggest customer
+- Total money in bank
+- Biggest customer
 
-Concepts Covered
+Concepts Covered:
 - Streams
 - Lambdas
 - Functional programming
@@ -87,18 +87,61 @@ Concepts Covered
 
 # Project Structure
 
+```
 bankingsystem/
 
 src/
+  Main.java
+  Bank.java
+  Account.java
+  SavingsAccount.java
+  CheckingAccount.java
+  Transaction.java
+  InsufficientFundsException.java
+
+data/
+  accounts.txt
+```
+
+# Setup 
+
+## Create Project
+
+### Using IntelliJ IDEA
+- Create New Project
+
+![createProject](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/createProject.png)
+
+## Create Files in src/
 
 - Main.java
 - Bank.java
 - Account.java
-- SavingsAccount.java
-- CheckingAccount.java
-- Transaction.java
-- InsufficientFundsException.java
 
-data/
+![createFiles](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/createFiles.png)
 
-- accounts.txt
+## Build each class
+
+![createClasses](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/createClasses.png)
+
+# Test code
+
+![runCode](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/runCode.png)
+
+## Add methods 
+
+- findAccount
+- deposit
+- withdraw
+
+![addMethods](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/addMethods.png)
+
+## Update Menu
+
+1. Create Account
+2. View Accounts
+3. Deposit
+4. Withdraw
+5. Exit
+
+## Test changes
