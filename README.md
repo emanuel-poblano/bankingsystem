@@ -145,3 +145,7 @@ data/
 5. Exit
 
 ## Test changes
+
+![addMethods](https://github.com/emanuel-poblano/bankingsystem/blob/main/images/updatedMenu.png)
+
+# Next 
