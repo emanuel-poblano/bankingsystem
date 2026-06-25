@@ -236,11 +236,11 @@ public Account(int accountNumber,
 
 ## Step 11: Catch Exception
 
-# Concepts Learned 
+#### Concepts Learned 
 
-- ## OOP / Composition
-- ## Collections / ArrayList
-- ## Exception Handling / try, catch, throw
-- ## Custom Exceptions
+- OOP / Composition
+- Collections / ArrayList
+- Exception Handling / try, catch, throw
+- Custom Exceptions
 
 
